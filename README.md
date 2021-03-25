@@ -55,11 +55,11 @@ Here's a walkthrough of implemented user stories:
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 
-        My greatest question would be: "How do web developers maintain large sites, and store the information from the site onto their large databases." I am seriously         wondering right now on how larger sites like amazon can manage to run a really large server that millions use,without it shutting down constantly, and then store and       retrieve the data amongst millions, that is actually personal to a user.
+        My greatest question would be: "How do web developers maintain large sites, and store the information from the site onto their large databases." I am seriously         wondering right now on how larger sites like amazon can manage to run a really large server that millions use,without it shutting down constantly, and then store and retrieve the data amongst millions, that is actually personal to a user.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
-        If I had a few more hours to work on this project I would definitely be improving the functionality of the timer, as it starts in during the sequence rather than after. I would also be adding in my own audio, as it takes a lot of time to search for the right royalty free audio to use. Additionally I would be cleaning up my code,            redocumenting, and polishing off the user interface.
+        If I had a few more hours to work on this project I would definitely be improving the functionality of the timer, as it starts in during the sequence rather than after. I would also be adding in my own audio, as it takes a lot of time to search for the right royalty free audio to use. Additionally I would be cleaning up my code, redocumenting, and polishing off the user interface.
 
 
 
