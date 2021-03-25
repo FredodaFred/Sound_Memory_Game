@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Light and Sound Memory Game</h1>
+
+    <p>
+      Repeat the pattern back to win the game!
+    </p>
+    <p id = "strikes">
+      Attempts remaining: 3
+    </p>
+    <p id = "timer">
+      Time Left: 
+    </p>
+
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+
+    <button id="stopBtn" class="hidden" onclick = "stopGame()">
+      Stop
+    </button>
+
+    <div id="gameAreaButtons">
+      <!--Colored buttons user interacts with -->
+      <button id="button1" onclick = "guess(1)" onmousedown="startTone(1);showImg(1)" onmouseup="stopTone();hideImg(1)">
+        <img id="img1" src = "https://cdn.glitch.com/48155ef3-119b-4485-a8a0-7167500fc81e%2Fpear.png?v=1615915035882" width="72" height="72" alt = "" >
+      </button>
+      <button id="button2" onclick = "guess(2)" onmousedown="startTone(2);showImg(2)" onmouseup="stopTone();hideImg(2)">
+         <img id="img2" src = "https://cdn.glitch.com/48155ef3-119b-4485-a8a0-7167500fc81e%2Fblueberry.png?v=1615911925289" width="72" height="72" alt = "">
+      </button>
+      <button id="button3" onclick = "guess(3)" onmousedown="startTone(3);showImg(3)" onmouseup="stopTone();hideImg(3)">
+      <img id="img3" src = "https://cdn.glitch.com/48155ef3-119b-4485-a8a0-7167500fc81e%2Fstrawberry.png?v=1615911911732" width="72" height="72" alt = "" >
+      </button>
+      <button id="button4" onclick = "guess(4)" onmousedown="startTone(4);showImg(4)" onmouseup="stopTone();hideImg(4)">
+        <img id="img4" src = "https://cdn.glitch.com/48155ef3-119b-4485-a8a0-7167500fc81e%2F27-275782_fruits-and-pens-by-ariel-isaac-messages-kawaii.png?v=1615915182995" width="72" height="72" alt = "" >
+      </button>
+      <button id="button5" onclick = "guess(5)" onmousedown="startTone(5);showImg(5)" onmouseup="stopTone();hideImg(5)">
+      <img id="img5" src = "https://cdn.glitch.com/48155ef3-119b-4485-a8a0-7167500fc81e%2Forange.png?v=1615915046438" width="72" height="72" alt = "" >
+      </button>
+    </div>
+  </body>
+</html>
