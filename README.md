@@ -25,7 +25,6 @@ My game has the following features
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
 <img src= 'sitestory.gif'/>
 
 
